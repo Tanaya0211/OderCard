@@ -21,14 +21,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
     public void increment(View view) {
-        quantity++;
+        quantity=quantity+1;
         displayquantity(quantity);
 
     }
     public void decrement(View view) {
 
         if(quantity>0)
-            quantity--;
+            quantity=quantity-1;
         displayquantity(quantity);
 
     }
